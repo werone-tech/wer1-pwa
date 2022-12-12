@@ -46,5 +46,19 @@
  <iframe id="myiframe" src="https://script.google.com/macros/s/AKfycbzIGyL8CpKz1b7bEPrJdAbt3v56v6V-oSZezftigGnZwNQiqZ49WiVdy__mDDfJf77i/exec"
  style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"
  >This app is not working on your phone, please reach out to WeROne Tech Team for help</iframe>
+
+<script>
+  window.addEventListener(
+  "message",
+  function (e) {
+    if (e.data.task === "set-cookie") {
+      document.cookie = e.data.content;
+    }
+  },
+  false
+);
+
+</script>
+
 </body>
 </html>

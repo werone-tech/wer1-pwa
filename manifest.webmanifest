@@ -1,0 +1,32 @@
+{
+    "theme_color": "#37bea8",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/wer1-pwa/",
+    "start_url": "/wer1-pwa/",
+    "name": "WeROne App",
+    "short_name": "WeROne",
+    "icons": [
+        {
+            "src": "/wer1-pwa/assets/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/wer1-pwa/assets/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/wer1-pwa/assets/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/wer1-pwa/assets/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "description": "WeROne App For Accounting"
+}
